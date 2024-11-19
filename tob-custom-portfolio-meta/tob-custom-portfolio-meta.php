@@ -56,7 +56,7 @@ function tob_deactivation() {
 
 function tob_deactivation_notice() {
 	$class = 'notice notice-error is-dismissible';
-	$message = __( 'Avada theme and Avada Core plugin is required to activate this plugin.', 'top-custom-plugin' );
+	$message = __( 'Avada theme and Avada Core plugin is required to activate this plugin.', 'tob-custom-plugin' );
 	printf( '<div class="%1$s"><p>%2$s</p></div>', esc_attr( $class ), esc_html( $message ) );
 }
 
